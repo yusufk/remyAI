@@ -45,7 +45,7 @@ const Chat = () => {
     const [showLoadingMessage, setShowLoadingMessage] = useState<boolean>(false);
     const [activeCitation, setActiveCitation] = useState<[content: string, id: string, title: string, filepath: string, url: string, metadata: string]>();
     const [isCitationPanelOpen, setIsCitationPanelOpen] = useState<boolean>(false);
-    const abortFuncs = useRef([] as AbortController[]);
+    const abortFuncs = useRef([] as AbortController[]); 
     const [showAuthMessage, setShowAuthMessage] = useState<boolean>(true);
     const [messages, setMessages] = useState<ChatMessage[]>([])
     const [processMessages, setProcessMessages] = useState<messageStatus>(messageStatus.NotRunning);
