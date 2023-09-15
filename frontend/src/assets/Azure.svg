@@ -1,23 +1,35 @@
-<svg width="100%" height="100%" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20.1149 7.70779C20.4813 6.62237 21.4992 5.8916 22.6447 5.8916H39.6279L22.0159 58.0753C21.6495 59.1607 20.6316 59.8915 19.4861 59.8915H6.22202C4.39538 59.8915 3.1081 58.0984 3.69222 56.3677L20.1149 7.70779Z" fill="url(#paint0_linear_2532_530598)"/>
-<path d="M47.2237 40.9922H20.5139C19.3879 40.9922 18.847 42.3738 19.6737 43.1383L37.0252 59.1825C37.5186 59.6388 38.1659 59.8922 38.8379 59.8922H53.8027L47.2237 40.9922Z" fill="#0078D4"/>
-<path d="M22.6446 5.8916C21.499 5.8916 20.4811 6.62237 20.1148 7.70779L3.69208 56.3677C3.10796 58.0984 4.39525 59.8915 6.22189 59.8915H19.4859C20.6315 59.8915 21.6494 59.1607 22.0157 58.0753L25.2833 48.3936L36.8335 59.1738C37.328 59.6352 37.979 59.8918 38.6553 59.8918H53.8029L47.2238 40.9919H27.7814L39.6277 5.8916H22.6446Z" fill="url(#paint1_linear_2532_530598)"/>
-<path d="M44.2909 7.70779C43.9245 6.62237 42.9066 5.8916 41.7611 5.8916H22.7529H22.8396C23.998 5.8916 25.0273 6.63058 25.3978 7.7282L41.8002 56.3281C42.3909 58.0783 41.0892 59.8915 39.242 59.8915H38.9529H58.1838C60.0104 59.8915 61.2977 58.0984 60.7136 56.3677L44.2909 7.70779Z" fill="url(#paint2_linear_2532_530598)"/>
-<defs>
-<linearGradient id="paint0_linear_2532_530598" x1="22.5507" y1="7.76073" x2="4.93883" y2="59.7904" gradientUnits="userSpaceOnUse">
-<stop stop-color="#114A8B"/>
-<stop offset="1" stop-color="#0669BC"/>
-</linearGradient>
-<linearGradient id="paint1_linear_2532_530598" x1="36.6217" y1="40.9974" x2="32.5513" y2="42.374" gradientUnits="userSpaceOnUse">
-<stop stop-opacity="0.3"/>
-<stop offset="0.0711768" stop-opacity="0.2"/>
-<stop offset="0.321031" stop-opacity="0.1"/>
-<stop offset="0.623053" stop-opacity="0.05"/>
-<stop offset="1" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint2_linear_2532_530598" x1="33.7164" y1="7.76081" x2="53.0487" y2="59.2668" gradientUnits="userSpaceOnUse">
-<stop stop-color="#3CCBF4"/>
-<stop offset="1" stop-color="#2892DF"/>
-</linearGradient>
-</defs>
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 500.8 500.8" xml:space="preserve">
+<circle style="fill:#BC628B;" cx="250.4" cy="250.4" r="248.8"/>
+<path style="fill:#AA507D;" d="M426.4,74.4c96.8,97.6,96.8,254.4,0,352c-97.6,96.8-254.4,96.8-352,0"/>
+<polygon style="fill:#B2C1BF;" points="63.2,184.8 0,101.6 55.2,10.4 185.6,28.8 216.8,178.4 165.6,204 "/>
+<polyline style="fill:#9FADAB;" points="185.6,28.8 216.8,178.4 165.6,204 63.2,184.8 "/>
+<polygon style="fill:#E5CFAC;" points="107.2,192.8 70.4,143.2 102.4,89.6 180,100 198.4,188.8 168,204 "/>
+<polyline style="fill:#D3BA97;" points="180,100 198.4,188.8 168,204 107.2,192.8 "/>
+<polygon style="fill:#B2C1BF;" points="437.6,184.8 500.8,101.6 445.6,10.4 315.2,28.8 284,178.4 335.2,204 "/>
+<polyline style="fill:#9FADAB;" points="315.2,28.8 284,178.4 335.2,204 437.6,184.8 "/>
+<polygon style="fill:#E5CFAC;" points="393.6,192.8 430.4,143.2 398.4,89.6 320.8,100 302.4,188.8 332.8,204 "/>
+<polyline style="fill:#D3BA97;" points="320.8,100 302.4,188.8 332.8,204 393.6,192.8 "/>
+<polygon style="fill:#B2C1BF;" points="100.8,192 250.4,143.2 400,192 350.4,431.2 250.4,490.4 150.4,431.2 "/>
+<polygon style="fill:#C7D3D2;" points="100.8,192 250.4,266.4 400,192 350.4,431.2 250.4,490.4 150.4,431.2 "/>
+<polyline style="fill:#B2C1BF;" points="250.4,143.2 400,192 350.4,431.2 250.4,490.4 "/>
+<ellipse style="fill:#5E6664;" cx="188" cy="312.8" rx="15.2" ry="13.6"/>
+<path style="fill:#2F423F;" d="M198.4,303.2c5.6,5.6,5.6,13.6,0,19.2s-15.2,5.6-21.6,0"/>
+<ellipse style="fill:#5E6664;" cx="312.8" cy="312.8" rx="15.2" ry="13.6"/>
+<path style="fill:#2F423F;" d="M323.2,303.2c5.6,5.6,5.6,13.6,0,19.2s-15.2,5.6-21.6,0"/>
+<polygon style="fill:#77501D;" points="274.4,490.4 226.4,490.4 195.2,442.4 305.6,442.4 "/>
+<polygon style="fill:#9E7738;" points="274.4,458.4 226.4,458.4 195.2,442.4 305.6,442.4 "/>
+<g>
+	<rect x="106.4" y="386.4" style="fill:#B2C1BF;" width="104" height="8"/>
+	
+		<rect x="106.452" y="419.947" transform="matrix(-0.9669 0.2551 -0.2551 -0.9669 416.4595 792.2792)" style="fill:#B2C1BF;" width="100.799" height="6.4"/>
+</g>
+<g>
+	<rect x="290.4" y="386.4" style="fill:#C7D3D2;" width="104" height="8"/>
+	
+		<rect x="293.999" y="419.49" transform="matrix(0.9669 0.2551 -0.2551 0.9669 119.2247 -73.8721)" style="fill:#C7D3D2;" width="100.799" height="6.4"/>
+</g>
 </svg>
