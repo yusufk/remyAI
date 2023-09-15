@@ -24,7 +24,7 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     overflow-y: auto;
-    max-height: calc(100vh - 100px);
+    max-height: 100%;
 }
 
 .chatEmptyState {
@@ -61,30 +61,34 @@
 }
 
 @media (max-width: 768px) {
+
     /* Smaller font size for screens with a maximum width of 768 pixels */
     .chatEmptyStateSubtitle {
-      font-size: 14px;
+        font-size: 14px;
     }
+
     .chatIcon {
-        height: 200px;
-        width: 200px;
+        height: 1500px;
+        width: 150px;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
+
     /* Even smaller font size for screens with a maximum width of 480 pixels */
     .chatEmptyStateSubtitle {
-      font-size: 12px;
+        font-size: 12px;
     }
+
     .chatIcon {
         height: 100px;
         width: 100px;
     }
-  }
+}
 
 .chatIcon {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
 }
 
 .chatMessageStream {
@@ -134,12 +138,12 @@
     /* background: #EDF5FD; */
     border-radius: 8px;
     box-shadow: rgba(182, 52, 67, 1) 1px 1px 2px, rgba(182, 52, 67, 1) 0px 0px 1px;
-    
+
     color: #242424;
     flex: none;
     order: 0;
     flex-grow: 0;
-    
+
     max-width: 80%;
     /* filter: drop-shadow(rgba(182, 52, 67, 1) 1px 1px 2px) drop-shadow(rgba(182, 52, 67, 1) 0px 0px 1px); */
 }
@@ -310,7 +314,7 @@
     color: #323130;
     margin-top: 12px;
     margin-bottom: 12px;
-} 
+}
 
 .citationPanelContent {
     font-style: normal;
@@ -322,9 +326,43 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-} 
+}
 
 a {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.bottomNav {
+    height: 64px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.bottomNavButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.bottomNavButton {
+    color: #2c2b2b;
+    font-size: 24px !important;
+    width: 32px;
+    height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottomNavButton svg {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 4px;
 }
