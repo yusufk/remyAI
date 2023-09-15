@@ -739,8 +739,7 @@ const Chat = () => {
                     )}
                     {(appStateContext?.state.isChatHistoryOpen && appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured) && <ChatHistoryPanel />}
                 </Stack>
-            )
-            }
+            )}
             <Stack horizontal className={styles.bottomNav}>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
                     <IconButton

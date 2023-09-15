@@ -9,8 +9,11 @@ import Layout from "./pages/layout/Layout";
 import NoPage from "./pages/NoPage";
 import Chat from "./pages/chat/Chat";
 import { AppStateProvider } from "./state/AppProvider";
+import * as ServiceWorkerRegistration from "./serviceWorkerRegistration";
 
 initializeIcons();
+
+ServiceWorkerRegistration.unregister();
 
 export default function App() {
     return (
