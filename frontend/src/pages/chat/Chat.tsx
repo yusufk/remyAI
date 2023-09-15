@@ -9,7 +9,7 @@ import uuid from 'react-uuid';
 
 import styles from "./Chat.module.css";
 import Remy from "../../assets/Remy.svg";
-
+import RemyLogo from "../../assets/Logo.png";
 import {
     ChatMessage,
     ConversationRequest,
@@ -540,7 +540,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Remy}
+                                    src={RemyLogo}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
@@ -685,7 +685,50 @@ const Chat = () => {
                 )}
                 {(appStateContext?.state.isChatHistoryOpen && appStateContext?.state.isCosmosDBAvailable?.status !== CosmosDBStatus.NotConfigured) && <ChatHistoryPanel/>}
                 </Stack>
-            )}
+            )
+            }
+            <Stack horizontal className={styles.bottomNav}>
+                <Stack.Item className={styles.bottomNavButtonContainer}>
+                    <IconButton
+                        iconProps={{ iconName: 'Home' }}
+                        className={styles.bottomNavButton}
+                        aria-label="Home"
+                        onClick={() => window.location.href = "/"} 
+                    />  
+                </Stack.Item>
+                <Stack.Item className={styles.bottomNavButtonContainer}>
+                    <IconButton
+                        iconProps={{ iconName: 'Food' }}
+                        className={styles.bottomNavButton}
+                        aria-label="Recipes"
+                        onClick={() => window.location.href = "/recipes"}
+                    />
+                </Stack.Item>
+                <Stack.Item className={styles.bottomNavButtonContainer}>
+                    <IconButton
+                        iconProps={{ iconName: 'Calendar' }}
+                        className={styles.bottomNavButton}
+                        aria-label="Meal Plan"
+                        onClick={() => window.location.href = "/mealplan"}
+                    />
+                </Stack.Item>
+                <Stack.Item className={styles.bottomNavButtonContainer}>
+                    <IconButton
+                        iconProps={{ iconName: 'ClipboardList' }}
+                        className={styles.bottomNavButton}
+                        aria-label="Inventory"
+                        onClick={() => window.location.href = "/inventory"}
+                    />
+                </Stack.Item>
+                <Stack.Item className={styles.bottomNavButtonContainer}>
+                    <IconButton
+                        iconProps={{ iconName: 'Settings' }}
+                        className={styles.bottomNavButton}
+                        aria-label="Settings"
+                        onClick={() => window.location.href = "/settings"}
+                    />
+                </Stack.Item>
+            </Stack> 
         </div>
     );
 };

@@ -65,6 +65,10 @@
     .chatEmptyStateSubtitle {
       font-size: 14px;
     }
+    .chatIcon {
+        height: 200px;
+        width: 200px;
+    }
   }
   
   @media (max-width: 480px) {
@@ -72,11 +76,15 @@
     .chatEmptyStateSubtitle {
       font-size: 12px;
     }
+    .chatIcon {
+        height: 100px;
+        width: 100px;
+    }
   }
 
 .chatIcon {
-    height: 62px;
-    width: 62px;
+    height: 300px;
+    width: 300px;
 }
 
 .chatMessageStream {
