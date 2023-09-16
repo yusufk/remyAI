@@ -10,7 +10,6 @@ import NoPage from "./pages/NoPage";
 import Chat from "./pages/chat/Chat";
 import { AppStateProvider } from "./state/AppProvider";
 import * as ServiceWorkerRegistration from "./serviceWorkerRegistration";
-import "./web.config";
 
 initializeIcons();
 
