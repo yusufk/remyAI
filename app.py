@@ -23,6 +23,18 @@ def index():
 def favicon():
     return app.send_static_file('favicon.ico')
 
+@app.route("/manifest.json")
+def manifest():
+    return app.send_static_file('manifest.json')
+
+@app.route("logo192.png")
+def logo192():
+    return app.send_static_file('logo192.png')
+
+@app.route("logo512.png")
+def logo512():
+    return app.send_static_file('logo512.png')
+
 @app.route("/assets/<path:path>")
 def assets(path):
     return send_from_directory("static/assets", path)
