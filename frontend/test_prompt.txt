@@ -1,9 +1,9 @@
-I need your help with dinner tonight for Zarina and I. We're quite hungry and in the mood for something wholesome.
+I need your help with dinner tonight for Zarina and I. It's quite late, so need something light and quick to make.
 
 Inventory:
-Kitchen: Tomatoes x 4, Onions x 2, Chedar cheese x 500g, Baked beans x 3 tins, White bread x 1 loaf
+Kitchen: Tomatoes x 4, Onions x 2, Chedar cheese x 500g, Baked beans x 3 tins, White bread x 1 loaf, Carrots x 4, Potatoes x 4, Eggs x 6, Milk x 1L, Butter x 500g, Flour x 1kg, Sugar x 1kg, Tea bags x 100, Coffee x 1kg, Rice x 1kg, Pasta x 1kg, Olive oil x 1L, Vegetable oil x 1L, Vinegar x 1L, Salt x 1kg, Pepper x 1kg, Paprika x 1kg, Mixed herbs x 1kg, Garlic x 1 bulb, Ginger x 1 bulb, Chilli x 1 bulb, Peanut butter x 500g, Honey x 500g, Jam x 500g, Marmite x 500g, Bovril x 500g, Baking powder x 1kg, Baking soda x 1kg, Yeast x 1kg, Cinnamon x 1kg, Vanilla essence x 1L, Cocoa powder x 1kg, Oats x 1kg, Cornflakes x 1kg, Muesli x 1kg, Nuts x 1kg, Raisins x 1kg, Dried fruit x 1kg, Tinned fruit x 1kg, Tinned fish x 1kg, Tinned meat x 1kg, Tinned tomatoes x 1kg, Tinned soup x 1kg, Tinned vegetables x 1kg, Tinned beans x 1kg, Tinned pulses x 1kg, Tinned pasta x 1kg, Tinned rice x 1kg, Tinned milk x 1kg, Tinned custard x 1kg, Tinned pudding x 1kg, Tinned jelly x 1kg, Tinned fruit juice x 1kg, Tinned squash x 1kg, Tinned tea x 1kg, Tinned coffee x 1kg, Tinned sugar x 1kg, Tinned salt x 1kg, Tinned pepper x 1kg, Tinned paprika x 1kg, Tinned mixed herbs x 1kg, Tinned garlic x 1kg, Tinned ginger x 1kg, Tinned chilli x 1kg, Tinned peanut butter x 1kg, Tinned honey x 1kg, Tinned jam x 1kg, Tinned marmite x 1kg, Tinned
 Spice rack: Salt, Pepper, Paprika
-Freezer: Frozen mixed vegetables x 500g
+Freezer: Frozen mixed vegetables x 500g, Frozen mixed fruit x 500g, Frozen meat x 500g, Frozen fish x 500g, Frozen chips x 500g, Frozen peas x 500g, Frozen sweetcorn x 500g, Frozen broccoli x 500g, Frozen cauliflower x 500g, Frozen carrots x 500g, Frozen spinach x 500g, Frozen beans x 500g, Frozen cabbage x 500g, Frozen onions x 500g, Frozen garlic x 500g, Frozen ginger x 500g, Frozen chilli x 500g, Frozen peanut butter x 500g, Frozen honey x 500g, Frozen jam x 500g, Frozen marmite x 500g, Frozen
 
 Allergies:
 Yusuf: Peanuts

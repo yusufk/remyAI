@@ -11,6 +11,8 @@ import uuid from 'react-uuid';
 import styles from "./Chat.module.css";
 import Remy from "../../assets/Remy.svg";
 import RemyLogo from "../../assets/Logo.png";
+import comingSoonImage from '../../assets/coming-soon.jpeg';
+
 import {
     ChatMessage,
     ConversationRequest,
@@ -47,16 +49,17 @@ const Chat = () => {
     const [activeCitation, setActiveCitation] = useState<[content: string, id: string, title: string, filepath: string, url: string, metadata: string]>();
     const [isCitationPanelOpen, setIsCitationPanelOpen] = useState<boolean>(false);
     const abortFuncs = useRef([] as AbortController[]);
-    const [showAuthMessage, setShowAuthMessage] = useState<boolean>(false);
+    const [showAuthMessage, setShowAuthMessage] = useState<boolean>(true);
     const [messages, setMessages] = useState<ChatMessage[]>([])
     const [processMessages, setProcessMessages] = useState<messageStatus>(messageStatus.NotRunning);
     const [clearingChat, setClearingChat] = useState<boolean>(false);
     const [hideErrorDialog, { toggle: toggleErrorDialog }] = useBoolean(true);
     const [errorMsg, setErrorMsg] = useState<ErrorMessage | null>()
-    const [showIframe, setShowIframe] = useState(false);
+    const [navContext, setnavContext] = useState("chat");
 
-    const handleCameraClick = () => {
-        setShowIframe(!showIframe);
+    const handleNavClick = (newContext: string) => {
+        setnavContext(newContext);
+        console.log("navContext: ", navContext);
     };
 
 
@@ -528,11 +531,17 @@ const Chat = () => {
 
     return (
         <div className={styles.container} role="main">
-            {showIframe ? (
+            {navContext === 'scan' &&
                 <div className={styles.chatRoot}>
                     <iframe src="https://pwascanit.com/" title="pwascanit" width="100%" height="500px" />
                 </div>
-            ) : (
+            }
+            {navContext === 'other' &&
+                <div className={styles.soonImage}>
+                    <h1>Coming Soon</h1>
+                    <img src={comingSoonImage} alt="Coming Soon" />
+                </div>}
+            {navContext === 'chat' && (
                 showAuthMessage ? (
                     <Stack className={styles.chatEmptyState}>
                         <ShieldLockRegular className={styles.chatIcon} style={{ color: 'darkorange', height: "200px", width: "200px" }} />
@@ -708,7 +717,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'Home' }}
                         className={styles.bottomNavButton}
                         aria-label="Home"
-                        onClick={() => window.location.href = "/"}
+                        onClick={() => handleNavClick("chat")}
                     />
                 </Stack.Item>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
@@ -716,7 +725,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'Brunch' }}
                         className={styles.bottomNavButton}
                         aria-label="Brunch"
-                        onClick={() => window.location.href = "/comingsoon"}
+                        onClick={() => handleNavClick("other")}
                     />
                 </Stack.Item>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
@@ -724,7 +733,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'Camera' }}
                         className={styles.bottomNavButton}
                         aria-label="Camera"
-                        onClick={() => handleCameraClick()}
+                        onClick={() => handleNavClick("scan")}
                     />
                 </Stack.Item>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
@@ -732,7 +741,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'DietPlanNotebook' }}
                         className={styles.bottomNavButton}
                         aria-label="Meal Plan"
-                        onClick={() => window.location.href = "/comingsoon"}
+                        onClick={() => handleNavClick("other")}
                     />
                 </Stack.Item>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
@@ -740,7 +749,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'Shop' }}
                         className={styles.bottomNavButton}
                         aria-label="Shopping Lists"
-                        onClick={() => window.location.href = "/comingsoon"}
+                        onClick={() => handleNavClick("other")}
                     />
                 </Stack.Item>
                 <Stack.Item className={styles.bottomNavButtonContainer}>
@@ -748,7 +757,7 @@ const Chat = () => {
                         iconProps={{ iconName: 'Settings' }}
                         className={styles.bottomNavButton}
                         aria-label="Settings"
-                        onClick={() => window.location.href = "/comingsoon"}
+                        onClick={() => handleNavClick("other")}
                     />
                 </Stack.Item>
             </Stack>
